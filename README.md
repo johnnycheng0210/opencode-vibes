@@ -1,2 +1,1 @@
-# opencode-vibes
-Vibing opencode stuff
+Janice Gao Portfolio website. 
