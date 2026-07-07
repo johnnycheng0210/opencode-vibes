@@ -710,6 +710,11 @@ footer p {
     .page-title {
         margin-bottom: 32px;
     }
+
+    /* Give the Portfolio title a little breathing room above the list on mobile */
+    #portfolio .page-title {
+        margin-bottom: 16px;
+    }
 }
 
 @media (max-width: 480px) {
