@@ -654,6 +654,12 @@ footer p {
         display: flex;
     }
 
+    /* Buttons are sized for desktop; scale them down for mobile */
+    .btn {
+        font-size: 18px;
+        padding: 13px 32px;
+    }
+
     .hero-stats {
         gap: 20px 40px;
         margin-top: 48px;
@@ -670,12 +676,21 @@ footer p {
         width: 100%;
     }
 
+    /* Stack the monogram above its caption so it doesn't float
+       in a narrow column with dead space around it */
     .logo-story {
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        align-items: start;
+    }
+
+    .logo-story-image {
+        justify-content: flex-start;
     }
 
     .logo-story-image img {
-        max-height: 90px;
+        height: auto;
+        max-height: 80px;
     }
 
     .contact-layout {
